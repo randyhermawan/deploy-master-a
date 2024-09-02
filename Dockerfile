@@ -12,7 +12,7 @@ RUN apk add --no-cache --update aws-cli
 RUN apk add opentofu --repository=https://dl-cdn.alpinelinux.org/alpine/latest-stable/main
 
 # Install serverless framework cli
-RUN npm install -g serverless
+RUN npm install -g serverless@3.39.0
 
 # Install golang binary
 COPY --from=golang:1.23-alpine3.20 /usr/local/go/ /usr/local/go/

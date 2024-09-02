@@ -11,7 +11,7 @@ docker pull randyhermawan/deploy-master-a:tagname
 Every package installed will be defaulted to latest installation:
 
 - Git
-- Serverless Framework CLI
+- Serverless Framework CLI @3.39.0
 - NPM
 - Golang
 - OpenTofu (TerraForm)
