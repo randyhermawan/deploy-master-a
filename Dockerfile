@@ -3,9 +3,10 @@ FROM alpine:latest
 # Update apk packages
 RUN apk update && apk upgrade
 
-# Add git npm aws-cli
+# Add git npm yarn aws-cli
 RUN apk add --no-cache --update git
 RUN apk add --no-cache --update npm
+RUN apk add --no-cache --update yarn
 RUN apk add --no-cache --update aws-cli
 
 # Add OpenTofu cli

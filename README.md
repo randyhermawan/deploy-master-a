@@ -13,6 +13,7 @@ Every package installed will be defaulted to latest installation:
 - Git
 - Serverless Framework CLI @3.39.0
 - NPM
+- Yarn
 - Golang
 - OpenTofu (TerraForm)
 - AWS CLI
